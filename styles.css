@@ -1,8 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#header{
+    margin: 50px auto;
+    width: 90%;
+    border: 1px solid black;
+    text-align: left;
+
+}
+
 ul, li{
     display: inline;
+    margin: 5px 2%;
+}
+
+a{
+    color: black;
+    text-decoration: none;
 }
 
 h1{
     font-family: Roboto, sans-serif;
     font-size: 20px;
+    display: inline;
+}
+
+#search{
+    display: inline;
+    margin: 5px 5%; 
 }
